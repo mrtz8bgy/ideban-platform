@@ -1,0 +1,1 @@
+<section class="section"><div class="container"><div class="empty-state"><h1>روش درخواست پشتیبانی نمی‌شود</h1><p>این نشانی با این نوع درخواست قابل دسترسی نیست.</p><a class="btn btn-dark" href="<?= e(site_url('/')) ?>">بازگشت به سایت</a></div></div></section>

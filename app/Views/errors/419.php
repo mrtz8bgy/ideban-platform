@@ -1,0 +1,1 @@
+<section class="section"><div class="container"><div class="empty-state"><h1>نشست فرم معتبر نیست</h1><p>صفحه را دوباره بارگذاری و درخواست را مجدداً ارسال کنید.</p><a class="btn btn-dark" href="<?= e(site_url('/')) ?>">بازگشت به سایت</a></div></div></section>

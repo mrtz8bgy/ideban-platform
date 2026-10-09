@@ -1,0 +1,1 @@
+<section class="page-hero"><div class="container"><div class="eyebrow"><span class="dot"></span> خطای ۴۰۴</div><h1>صفحه پیدا نشد</h1><p>نشانی واردشده وجود ندارد یا ممکن است جابه‌جا شده باشد.</p><a class="btn btn-primary" href="<?= e(site_url('/')) ?>">بازگشت به صفحه اصلی</a></div></section>

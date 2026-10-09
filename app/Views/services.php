@@ -1,0 +1,8 @@
+<section class="page-hero"><div class="container"><div class="breadcrumb"><a href="<?= e(site_url('/')) ?>">خانه</a> / خدمات</div><div class="eyebrow"><span class="dot"></span> خدمات فناوری اطلاعات</div><h1>خدماتی برای ساختن و پشتیبانی زیرساخت کسب‌وکار</h1><p>از طراحی و توسعه وب‌سایت و نرم‌افزار تا DevOps، شبکه، امنیت و پشتیبانی. شرح هر خدمت، محدوده و اقلام تحویلی را پیش از شروع مشخص می‌کنیم.</p></div></section>
+<section class="section section-soft"><div class="container"><div class="listing-grid">
+<?php foreach ($services as $service): ?>
+  <article class="content-card"><span class="section-kicker"><?= e($service['category_title']) ?></span><h2><?= e($service['title']) ?></h2><p><?= e($service['short_description']) ?></p><a class="btn btn-outline" href="<?= e(site_url('/services/' . $service['slug'])) ?>">جزئیات و درخواست</a></article>
+<?php endforeach; ?>
+<?php if ($services === []): ?><div class="empty-state">هنوز خدمتی ثبت نشده است. لطفاً بعداً مراجعه کنید.</div><?php endif; ?>
+</div></div></section>
+<section class="section"><div class="container"><div class="portfolio-empty"><div class="empty-art" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M7 9h22M7 18h22M7 27h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="27" cy="27" r="4" stroke="currentColor" stroke-width="1.6"/></svg></div><div><h3>برای انتخاب خدمت، از نیازسنجی شروع کنید</h3><p>اگر دقیقاً نمی‌دانید کدام خدمت مناسب است، مسئله و شرایط فعلی را توضیح دهید تا مسیر مناسب بررسی شود.</p></div><a class="btn btn-dark" href="<?= e(site_url('/contact#contact')) ?>">درخواست مشاوره</a></div></div></section>

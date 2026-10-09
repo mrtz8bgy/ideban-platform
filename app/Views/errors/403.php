@@ -1,0 +1,1 @@
+<section class="section"><div class="container"><div class="empty-state"><h1>دسترسی مجاز نیست</h1><p>نقش کاربری شما اجازه مشاهده این بخش را ندارد.</p><a class="btn btn-dark" href="<?= e(site_url('/admin')) ?>">بازگشت به داشبورد</a></div></div></section>
